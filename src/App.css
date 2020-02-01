@@ -7,10 +7,14 @@
   height: 80px;
 }
 
+.App-logo.small {
+  height: 20px;
+}
+
 .App-header {
   background-color: #222;
   height: 50px;
-  padding: 20px;
+  padding: 10px;
   color: white;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,8 +54,15 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
+  list-style-type: none;
 }
 
 .card {
   width: 18rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
 }
