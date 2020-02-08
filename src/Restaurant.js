@@ -1,16 +1,17 @@
 import React, { Component } from "react";
+import Order from "./Order.js";
 
 class Restaurant extends Component {
   render() {
-    const pizzas = 0;
     return (
       <div>
         <h3>Restaurant Orders</h3>
         <ul>
-          <li>
-            Pizzas: {pizzas} <button className="btn btn-primary">Add</button>
-          </li>
+          <Order orderType="Pizza" />
+          <Order orderType="Salad" />
         </ul>
+
+        <button>Restaurant</button>
       </div>
     );
   }

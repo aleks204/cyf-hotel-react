@@ -1,4 +1,5 @@
 import React from "react";
+import Clock from "./Clock";
 
 const Heading = () => {
   return (
@@ -8,6 +9,9 @@ const Heading = () => {
         className="App-logo small"
         alt="logo"
       />
+      <div>
+        <Clock />
+      </div>
     </header>
   );
 };
